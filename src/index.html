@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tauri App</title>
+    <script type="module" src="/main.js" defer></script>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 640px;
+            height: 60px;
+        }
+
+        input {
+            border-radius: 8px;
+            border: 1px solid #000;
+            box-sizing: border-box;
+
+            font-size: 1em;
+            outline: none;
+            padding: 1em 0.4em;
+
+            height: 100%;
+            width: 100%;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            input {
+                color: #ffffff;
+                background-color: #0f0f0fdd;
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            input {
+                color: #0f0f0f;
+                background-color: #ffffffdd;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text">
+</body>
+
+</html>
